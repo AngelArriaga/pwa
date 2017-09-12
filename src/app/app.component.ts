@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   curDate = new Date();
+
+
+  updateDate(){
+    this.curDate = new Date();
+  }
 }
