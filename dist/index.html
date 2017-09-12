@@ -1,22 +1,9 @@
-<!-- <link rel="manifest" href="/manifest.json"> -->
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Pwa</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="./styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet" />
-</head>
-
-<body>
-  <app-root></app-root>
-  <script type="text/javascript" src="./inline.f688f6566650ec937b73.bundle.js"></script>
-  <script type="text/javascript" src="./polyfills.67d068662b88f84493d2.bundle.js"></script>
-  <script type="text/javascript" src="./vendor.dd97be8fb65ee0109dba.bundle.js"></script>
-  <script type="text/javascript" src="./main.77a4af55d9791bcff2fe.bundle.js"></script>
-</body>
-
-</html>
+<!-- <link rel="manifest" href="/manifest.json"> --><!doctype html><html lang="en"><head><meta charset="utf-8"><title>Pwa</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><!-- <script defer>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('sw.js').then(() => {
+        console.log('Service worker installed')
+      }, err => {
+        console.error('Service worker error:', err);
+      });
+    }
+  </script> --><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.086318eb2fcd851d4800.bundle.js"></script><script type="text/javascript" src="polyfills.67d068662b88f84493d2.bundle.js"></script><script type="text/javascript" src="sw-register.6819cd2c5fa25470ecf2.bundle.js"></script><script type="text/javascript" src="vendor.18287452cd4e8fd71cf7.bundle.js"></script><script type="text/javascript" src="main.77a4af55d9791bcff2fe.bundle.js"></script></body></html>

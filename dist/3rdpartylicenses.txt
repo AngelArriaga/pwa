@@ -22,6 +22,8 @@ THE SOFTWARE.
 
 @angular/core@4.3.6 MIT
 
+@angular/service-worker@1.0.0-beta.16 MIT
+
 zone.js@0.8.17 MIT
 The MIT License
 
